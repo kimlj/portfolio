@@ -7,8 +7,8 @@ import './navbar.css'
 function Navbar (){
     return (
         <>
-        <nav>
-
+        <nav className="navbar">
+            {/* inser navbar contents here, should contain home, academics/school, work experience, certificates, github link, linkedin?, dark mode light mode*/}
         </nav>
         </>
     )
