@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-      <Navbar /> Render the Navbar component at the top
+      <Navbar />
       <main> {/* Wrap main content in a main section */}
         <Home />  {/* Display the Home component */}
         {/* Conditionally render other components based on routing (if applicable) */}
