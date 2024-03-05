@@ -16,7 +16,7 @@ function Navbar() {
     };
 
     // Custom class for shared link styles
-    const sharedLinkStyles =   "border-b-2 block text-black md:bg-transparent md:p-0 dark:text-white md:dark:text-blue-500"; // Adjusted styles
+    const sharedLinkStyles =   "block text-black md:bg-transparent md:p-0 dark:text-white md:dark:text-blue-500"; // Adjusted styles
 
     // responsive design on tailwind just use md for medium devices then the style like md:
     return (
@@ -35,19 +35,19 @@ function Navbar() {
         </button >
         <div className={`${isMenuOpen ? 'block' : 'hidden'} w-full md:block md:w-auto`} id="navbar-default">
         <ul className="align-center justify-center font-medium flex flex-col mt-4 bg-white p-7 rounded-3xl md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-                <li className="flex-initial">
+                <li className="flex-initial nav-ul-li">
                     <Link to="/" className={sharedLinkStyles}>Home</Link>
                 </li>
-                <li className="flex-initial">
+                <li className="flex-initial nav-ul-li">
                     <Link to="/academics" className={sharedLinkStyles}>Academics</Link>
                 </li>
-                <li className="flex-initial">
+                <li className="flex-initial nav-ul-li">
                     <Link to="/certifications" className={sharedLinkStyles}>Certifications</Link>
                 </li>
-                <li className="flex-initial">
+                <li className="flex-initial nav-ul-li">
                     <Link to="/workExperience" className={sharedLinkStyles}>Work Experience</Link>
                 </li>
-                <li className="flex-initial">
+                <li className="flex-initial nav-ul-li">
                     <Link to="/About" className={sharedLinkStyles}>About</Link>
                 </li>
                 {/* Add other links as needed */}

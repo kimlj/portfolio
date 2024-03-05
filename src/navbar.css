@@ -1,4 +1,8 @@
-.sharedLinkStyles:hover {
-  border-bottom: 2px solid; /* Straight bottom line */
-  border-radius: 5px; /* Overall rounded corners */
+.nav-ul-li:hover{
+    border-bottom: 2px solid gray;
+}
+
+.nav-ul-li{
+    border-bottom: 2px solid transparent;
+    overflow: hidden;
 }
