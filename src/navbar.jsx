@@ -16,7 +16,7 @@ function Navbar() {
     };
 
     // Custom class for shared link styles
-    const sharedLinkStyles = "block py-2 px-3 text-black rounded md:bg-transparent md:p-0 dark:text-white md:dark:text-blue-500";
+    const sharedLinkStyles =   "border-b-2 block text-black md:bg-transparent md:p-0 dark:text-white md:dark:text-blue-500"; // Adjusted styles
 
     // responsive design on tailwind just use md for medium devices then the style like md:
     return (

@@ -1,0 +1,4 @@
+.sharedLinkStyles:hover {
+  border-bottom: 2px solid; /* Straight bottom line */
+  border-radius: 5px; /* Overall rounded corners */
+}
