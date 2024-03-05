@@ -1,8 +1,9 @@
 .nav-ul-li:hover{
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid #ffef5c;
 }
 
 .nav-ul-li{
     border-bottom: 2px solid transparent;
     overflow: hidden;
+    padding-bottom: .1rem;
 }
