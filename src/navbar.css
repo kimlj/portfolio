@@ -55,9 +55,11 @@
 
 
 .profile{
-    width: 4rem;
+    width: 3.5rem;
     height: auto;
     /* border-radius: 50%; */
     position: absolute;
+    margin-left: 1%;
+    margin-top: .6%;
 }
 
