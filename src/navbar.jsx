@@ -23,7 +23,7 @@ function Navbar() {
     return (
         
         <nav className="">
-        <button onClick={toggleMenu}
+        {/* <button onClick={toggleMenu}
           type="button"
           className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
           aria-controls="navbar-default"
@@ -32,28 +32,30 @@ function Navbar() {
             <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15"/>
             </svg>
-
-        </button >
+        </button > */}
         <div className={`${isMenuOpen ? 'block' : 'hidden'} w-full md:block md:w-auto`} id="navbar-default">
-        <img className = "profile" src={profileImagePath} alt="" />
-        <ul className="nav-ul font-medium mt-4 bg-white p-7 rounded-3xl md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-            <li className="nav-ul-li">
-                <Link to="/" className={sharedLinkStyles}>Home</Link>
-            </li>
-            <li className="nav-ul-li">
-                <Link to="/academics" className={sharedLinkStyles}>Academics</Link>
-            </li>
-            <li className="nav-ul-li">
-                <Link to="/certifications" className={sharedLinkStyles}>Certifications</Link>
-            </li>
-            <li className="nav-ul-li">
-                <Link to="/workExperience" className={sharedLinkStyles}>Work Experience</Link>
-            </li>
-            <li className="nav-ul-li">
-                <Link to="/About" className={sharedLinkStyles}>About</Link>
-            </li>
-            {/* Add other links as needed */}
-        </ul>
+            <img className = "profile" src={profileImagePath} alt="" />
+            <div className="ul-holder">
+                <ul className="nav-ul">
+                    <li className="nav-ul-li">
+                        <Link to="/" className={sharedLinkStyles}>Home</Link>
+                    </li>
+                    <li className="nav-ul-li">
+                        <Link to="/academics" className={sharedLinkStyles}>Academics</Link>
+                    </li>
+                    <li className="nav-ul-li">
+                        <Link to="/certifications" className={sharedLinkStyles}>Certifications</Link>
+                    </li>
+                    <li className="nav-ul-li">
+                        <Link to="/workExperience" className={sharedLinkStyles}>Work Experience</Link>
+                    </li>
+                    <li className="nav-ul-li">
+                        <Link to="/About" className={sharedLinkStyles}>About</Link>
+                    </li>
+                    {/* Add other links as needed */}
+                </ul>
+            </div>
+
         </div>
             
         </nav>

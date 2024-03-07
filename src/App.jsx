@@ -13,7 +13,7 @@ function App() {
   const [count, setCount] = useState(0); // State for the counter functionality
 
   return (
-    <>
+    <div className='container'>
       <Navbar />
       <main> {/* Wrap main content in a main section */}
         <Home />  {/* Display the Home component */}
@@ -23,7 +23,7 @@ function App() {
         <Academics />  {/* Assuming you have an Academics component */}
         <Certifications />  {/* Assuming you have a Certifications component */}
       </main>
-    </>
+    </div>
   );
 }
 

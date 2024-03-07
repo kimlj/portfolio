@@ -5,5 +5,13 @@
 
 
 body{
+  background-color: #ffef5c;
+}
+
+.container{
   background-color: #f7f7f8;
+  height: 94vh;
+  ;
+  /* width: 9; */
+  margin: 0% auto;
 }
