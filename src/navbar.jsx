@@ -36,24 +36,24 @@ function Navbar() {
         </button >
         <div className={`${isMenuOpen ? 'block' : 'hidden'} w-full md:block md:w-auto`} id="navbar-default">
         <img className = "profile" src={profileImagePath} alt="" />
-        <ul className="font-medium flex flex-col mt-4 bg-white p-7 rounded-3xl md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-                <li className="flex-initial nav-ul-li">
-                    <Link to="/" className={sharedLinkStyles}>Home</Link>
-                </li>
-                <li className="flex-initial nav-ul-li">
-                    <Link to="/academics" className={sharedLinkStyles}>Academics</Link>
-                </li>
-                <li className="flex-initial nav-ul-li">
-                    <Link to="/certifications" className={sharedLinkStyles}>Certifications</Link>
-                </li>
-                <li className="flex-initial nav-ul-li">
-                    <Link to="/workExperience" className={sharedLinkStyles}>Work Experience</Link>
-                </li>
-                <li className="flex-initial nav-ul-li">
-                    <Link to="/About" className={sharedLinkStyles}>About</Link>
-                </li>
-                {/* Add other links as needed */}
-            </ul>
+        <ul className="nav-ul font-medium mt-4 bg-white p-7 rounded-3xl md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <li className="nav-ul-li">
+                <Link to="/" className={sharedLinkStyles}>Home</Link>
+            </li>
+            <li className="nav-ul-li">
+                <Link to="/academics" className={sharedLinkStyles}>Academics</Link>
+            </li>
+            <li className="nav-ul-li">
+                <Link to="/certifications" className={sharedLinkStyles}>Certifications</Link>
+            </li>
+            <li className="nav-ul-li">
+                <Link to="/workExperience" className={sharedLinkStyles}>Work Experience</Link>
+            </li>
+            <li className="nav-ul-li">
+                <Link to="/About" className={sharedLinkStyles}>About</Link>
+            </li>
+            {/* Add other links as needed */}
+        </ul>
         </div>
             
         </nav>

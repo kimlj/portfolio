@@ -1,15 +1,31 @@
-.nav-ul-li:hover{
-    border-bottom: 2px solid #ffef5c;
+.nav-ul{
+    display: flex;
+    
 }
-
 .nav-ul-li{
     border-bottom: 2px solid transparent;
     overflow: hidden;
     padding-bottom: .1rem;
+    /* padding-left: 1%; */
 }
+.nav-ul-li:first-child{
+    
+}
+.nav-ul-li:hover{
+    border-bottom: 2px solid #ffef5c;
+}
+
+
 
 #navbar-default{
     width: 75%;
     margin: 2rem auto;
 
 }
+
+.profile{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
