@@ -47,7 +47,7 @@ function Navbar() {
                         <Link to="/certifications" className={sharedLinkStyles}>Certifications</Link>
                     </li>
                     <li className="nav-ul-li">
-                        <Link to="/workExperience" className={sharedLinkStyles}>Work Experience</Link>
+                        <Link to="/experience" className={sharedLinkStyles}>Experience</Link>
                     </li>
                     <li className="nav-ul-li">
                         <Link to="/About" className={sharedLinkStyles}>About</Link>

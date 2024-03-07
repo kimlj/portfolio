@@ -1,4 +1,4 @@
-function WorkExperience (){
+function experience (){
     return (
         <>
         Work Experience
@@ -6,4 +6,4 @@ function WorkExperience (){
     );
 }
 
-export default WorkExperience
+export default experience
