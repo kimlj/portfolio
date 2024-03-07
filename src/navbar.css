@@ -55,9 +55,9 @@
 
 
 .profile{
-    width: 3rem;
+    width: 4rem;
     height: auto;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     position: absolute;
 }
 

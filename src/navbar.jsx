@@ -18,7 +18,7 @@ function Navbar() {
     // Custom class for shared link styles
     const sharedLinkStyles =   "block text-black md:bg-transparent md:p-0 dark:text-white md:dark:text-blue-500"; // Adjusted styles
     // Define the path to your profile image relative to the navbar.jsx file
-    const profileImagePath = "src/assets/profile.jpg";
+    const profileImagePath = "src/assets/picture1.png";
     // responsive design on tailwind just use md for medium devices then the style like md:
     return (
         
