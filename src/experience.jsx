@@ -1,9 +1,9 @@
-function experience (){
+function Experience (){
     return (
         <>
-        Work Experience
+        Experience
         </>
     );
 }
 
-export default experience
+export default Experience

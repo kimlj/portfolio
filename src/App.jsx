@@ -6,7 +6,7 @@ import Navbar from './navbar'
 import Home from './home'
 import Certifications from './certifications'
 import About from './about'
-import WorkExperience from './workExperience'
+import Experience from './experience'
 import Academics from './academics'
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
         <Home />  {/* Display the Home component */}
         {/* Conditionally render other components based on routing (if applicable) */}
         <About />  {/* Assuming you have an About component */}
-        <WorkExperience />  {/* Assuming you have a WorkExperience component */}
+        <Experience />  {/* Assuming you have a WorkExperience component */}
         <Academics />  {/* Assuming you have an Academics component */}
         <Certifications />  {/* Assuming you have a Certifications component */}
       </main>

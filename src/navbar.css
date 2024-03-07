@@ -13,19 +13,19 @@
     /* display: inline-block; */
     margin-left: 50%;
     width: 70%;
-    
+    height: 100%;
     /* margin-top: 50%; */
     /* position: absolute; */
-    /* align-items: center; */
-    /* justify-content: center; */
     transform: translateX(-50%);
 }
 .nav-ul{
     display: flex;
     justify-content: center;
+    margin-top: 2vh;
+    /* align-items: center; */
     /* padding: 1rem 2rem; */
     /* margin-left: 4rem; */
-    gap: 2rem;
+    gap: 2vw;
 
 }
 .nav-ul-li{
@@ -33,7 +33,7 @@
     overflow: hidden;
     /* padding-bottom: .1rem; */
     /* padding-left: 1%; */
-    font-size: 1rem;
+    /* font-size: 2vw; */
     
 }
 .nav-ul-li a {
