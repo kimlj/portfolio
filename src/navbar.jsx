@@ -20,8 +20,9 @@ function Navbar() {
     // Define the path to your profile image relative to the navbar.jsx file
     const profileImagePath = "src/assets/picture1.png";
     // responsive design on tailwind just use md for medium devices then the style like md:
+    const hamburgerMenuPath = "src/assets/hamburger-32.png";
+
     return (
-        
         <nav className="">
         {/* <button onClick={toggleMenu}
           type="button"
@@ -33,6 +34,10 @@ function Navbar() {
                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1h15M1 7h15M1 13h15"/>
             </svg>
         </button > */}
+        {/* show menu here */}
+        <button className="hamburger-menu" onClick={toggleMenu}>
+            <img src={hamburgerMenuPath} alt="" />
+        </button>
         <div className={`${isMenuOpen ? 'block' : 'hidden'} w-full md:block md:w-auto`} id="navbar-default">
             <img className = "profile" src={profileImagePath} alt="" />
             <div className="ul-holder">
@@ -51,7 +56,7 @@ function Navbar() {
                         <Link to="/experience" className={sharedLinkStyles}>Experience</Link>
                     </li>
                     <li className="nav-ul-li">
-                        <Link to="/About" className={sharedLinkStyles}>About</Link>
+                        <Link to="/about" className={sharedLinkStyles}>About</Link>
                     </li>
                     {/* Add other links as needed */}
                 </ul>

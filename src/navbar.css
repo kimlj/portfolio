@@ -89,3 +89,18 @@
     background-color: #28c9d7;
     cursor: pointer;
 }
+
+/* display menu hidden initially */
+.hamburger-menu{
+    display: none;
+}
+
+/* show menu on specific screen */
+@media(max-width:890px){
+    .hamburger-menu {
+        display: block;
+    }
+    #navbar-default{
+        display: none;
+    }
+}
