@@ -11,10 +11,10 @@ body{
 }
 
 .container{
-  width: 96vw;
+  width: 97.5vw;
   background-color: #f7f7f8;
-  height: 94vh;
-  margin: 3vh auto;
+  height: 96vh;
+  margin: 2vh auto;
   /* margin-top: 3vh; */
   /* width: 9; */
   overflow: hidden;
