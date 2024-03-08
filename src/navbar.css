@@ -83,3 +83,8 @@
     letter-spacing: .1rem;
     font-size: .9rem;
 }
+
+.hire-me-btn:hover{
+    background-color: #7edee7;
+    cursor: pointer;
+}

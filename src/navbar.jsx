@@ -57,6 +57,7 @@ function Navbar() {
                 </ul>
             </div>
             <button className="hire-me-btn">Contact Me</button>
+            {/* this button when clicked should go to email with my email as contact and ready to send */}
         </div>
             
         </nav>
