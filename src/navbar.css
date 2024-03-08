@@ -13,7 +13,7 @@
 .ul-holder{
     position: absolute;
     /* display: inline-block; */
-    margin-left: 15%;
+    margin-left: 12%;
     /* width: 70%; */
     /* height: 100%; */
     /* margin-top: 50%; */
@@ -53,9 +53,11 @@
     border-bottom: 2px solid #59D5E0;
 }
 
-
-
-
+.li-divider{
+    border: 1px solid #59D5E0;
+    height: 1rem;
+    margin-top: .5vh;
+}
 
 .profile{
     width: 2.8rem;

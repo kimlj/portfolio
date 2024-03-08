@@ -43,6 +43,7 @@ function Navbar() {
                     <li className="nav-ul-li">
                         <Link to="/academics" className={sharedLinkStyles}>Academics</Link>
                     </li>
+                    <div className="li-divider"></div>
                     <li className="nav-ul-li">
                         <Link to="/certifications" className={sharedLinkStyles}>Certifications</Link>
                     </li>
