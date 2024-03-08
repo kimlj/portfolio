@@ -13,12 +13,12 @@
 .ul-holder{
     position: absolute;
     /* display: inline-block; */
-    margin-left: 50%;
-    width: 70%;
-    height: 100%;
+    margin-left: 15%;
+    /* width: 70%; */
+    /* height: 100%; */
     /* margin-top: 50%; */
     /* position: absolute; */
-    transform: translateX(-50%);
+    /* transform: translateX(-50%); */
 }
 .nav-ul{
     display: flex;
@@ -46,7 +46,7 @@
     font-weight: 600;
 }
 .nav-ul-li:first-child{
-    
+    margin-left: -4vw;
 }
 .nav-ul-li:hover{
     border-bottom: 2px solid #ffef5c;
@@ -58,11 +58,10 @@
 
 
 .profile{
-    width: 3.5rem;
+    width: 2.8rem;
     height: auto;
     /* border-radius: 50%; */
     position: absolute;
-    margin-left: 1%;
-    margin-top: .45%;
+    margin-left: 2%;
 }
 
