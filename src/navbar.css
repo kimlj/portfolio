@@ -31,6 +31,7 @@
 
 }
 .nav-ul-li{
+    padding-bottom: .2rem;
     border-bottom: 2px solid transparent;
     overflow: hidden;
     /* padding-bottom: .1rem; */
