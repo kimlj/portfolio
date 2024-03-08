@@ -56,7 +56,7 @@ function Navbar() {
                     {/* Add other links as needed */}
                 </ul>
             </div>
-
+            <button className="hire-me-btn">Contact Me</button>
         </div>
             
         </nav>

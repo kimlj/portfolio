@@ -49,7 +49,6 @@
     margin-left: -4vw;
 }
 .nav-ul-li:hover{
-    border-bottom: 2px solid #ffef5c;
     border-bottom: 2px solid #59D5E0;
 }
 
@@ -67,3 +66,20 @@
     margin-left: 2%;
 }
 
+.hire-me-btn{
+    font-family: "Montserrat", sans-serif;
+    background-color: #59D5E0;
+    outline: none;
+    border: none;
+    /* padding: rem; */
+    height: 2.8rem;
+    position: absolute;
+    border-radius: 1.5rem;
+    padding: 0 1.5rem;
+    right: 2%;
+    font-weight: 600;
+    color: #343537;
+    color: white;
+    letter-spacing: .1rem;
+    font-size: .9rem;
+}
