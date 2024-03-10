@@ -36,7 +36,7 @@ function Navbar() {
         </button > */}
         {/* show menu here */}
         <button className="hamburger-menu" onClick={toggleMenu}>
-            <img src={hamburgerMenuPath} alt="" />
+            <img src={hamburgerMenuPath} alt="" className="hamburger-icon"/>
         </button>
         <div className={`${isMenuOpen ? 'block' : 'hidden'} w-full md:block md:w-auto`} id="navbar-default">
             <img className = "profile" src={profileImagePath} alt="" />

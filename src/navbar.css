@@ -90,9 +90,25 @@
     cursor: pointer;
 }
 
+.hamburger-icon{
+    width: 1.5rem;
+
+}
 /* display menu hidden initially */
 .hamburger-menu{
     display: none;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    display: inline-block;
+    position: absolute;
+    right: 1rem;
+    top: 2rem;
+    border-radius: 5px;
+}
+.hamburger-menu:hover{
+    cursor: pointer;
+    background-color: white;
 }
 
 /* show menu on specific screen */
@@ -105,6 +121,7 @@
     } */
     #navbar-default{
         width: 98%;
+        margin-top: 1vh;
     }
 }
 
@@ -117,6 +134,9 @@
         display: none;
     } */
     #navbar-default{
-        margin-top: 1vh;
+        display: none;
+    }
+    .hamburger-menu{
+        display: block;
     }
 }
