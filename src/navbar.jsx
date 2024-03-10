@@ -38,8 +38,8 @@ function Navbar() {
         <button className="hamburger-menu" onClick={toggleMenu}>
             <img src={hamburgerMenuPath} alt="" className="hamburger-icon"/>
         </button>
+        <img className = "profile" src={profileImagePath} alt="" />
         <div className={`${isMenuOpen ? 'block' : 'hidden'} w-full md:block md:w-auto`} id="navbar-default">
-            <img className = "profile" src={profileImagePath} alt="" />
             <div className="ul-holder">
                 <ul className="nav-ul">
                     <li className="nav-ul-li">

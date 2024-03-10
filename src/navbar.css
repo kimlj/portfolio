@@ -63,7 +63,9 @@
     height: auto;
     /* border-radius: 50%; */
     position: absolute;
-    margin-left: 2%;
+    margin-left: 13.5vw;
+    margin-top: 1vh;
+    z-index: 2;
 }
 
 .hire-me-btn{
@@ -92,11 +94,11 @@
 
 .hamburger-icon{
     width: 1.5rem;
-
+    display: none;
 }
 /* display menu hidden initially */
 .hamburger-menu{
-    display: none;
+    /* display: none; */
     outline: none;
     border: none;
     background-color: transparent;
@@ -123,6 +125,9 @@
         width: 98%;
         margin-top: 1vh;
     }
+    .profile{
+        margin-left: 3vw;
+    }
 }
 
 /* show menu on specific screen */
@@ -136,7 +141,14 @@
     #navbar-default{
         display: none;
     }
-    .hamburger-menu{
+    .hamburger-icon{
         display: block;
+    }
+    .hamburger-menu{
+        /* display: block; */
+    }
+    .profile{
+        /* display: block; */
+        
     }
 }
