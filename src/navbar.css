@@ -97,10 +97,26 @@
 
 /* show menu on specific screen */
 @media(max-width:890px){
-    .hamburger-menu {
+    /* .hamburger-menu {
         display: block;
     }
     #navbar-default{
         display: none;
+    } */
+    #navbar-default{
+        width: 98%;
+    }
+}
+
+/* show menu on specific screen */
+@media(max-width:660px){
+    /* .hamburger-menu {
+        display: block;
+    }
+    #navbar-default{
+        display: none;
+    } */
+    #navbar-default{
+        margin-top: 1vh;
     }
 }
