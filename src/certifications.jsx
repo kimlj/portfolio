@@ -1,7 +1,7 @@
 function Certifications (){
     return (
         <>
-        Certifications
+        
         </>
     );
 }

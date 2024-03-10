@@ -1,7 +1,7 @@
 function Academics (){
     return (
         <>
-        Academics
+        
         </>
     );
 }
