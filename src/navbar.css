@@ -148,7 +148,6 @@
         /* display: block; */
     }
     .profile{
-        /* display: block; */
-        
+        display: none;
     }
 }
