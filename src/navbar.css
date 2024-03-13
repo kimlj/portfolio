@@ -19,6 +19,7 @@
     /* margin-top: 50%; */
     /* position: absolute; */
     /* transform: translateX(-50%); */
+    /* display: none; */
 }
 .nav-ul{
     display: flex;
@@ -98,7 +99,7 @@
 }
 /* display menu hidden initially */
 .hamburger-menu{
-    /* display: none; */
+    display: none;
     outline: none;
     border: none;
     background-color: transparent;
@@ -130,14 +131,9 @@
     }
 }
 
+
 /* show menu on specific screen */
 @media(max-width:660px){
-    /* .hamburger-menu {
-        display: block;
-    }
-    #navbar-default{
-        display: none;
-    } */
     #navbar-default{
         display: none;
     }
@@ -151,3 +147,17 @@
         display: none;
     }
 }
+
+@media(min-width: 661px) {
+    .hamburger-icon,
+    .hamburger-menu {
+      display: none;
+    }
+  }
+
+
+
+/* Show .ul-holder when .menu-visible class is added */
+/* .menu-visible{
+    display: block;
+} */
