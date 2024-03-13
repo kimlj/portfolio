@@ -158,6 +158,6 @@
 
 
 /* Show .ul-holder when .menu-visible class is added */
-/* .menu-visible{
-    display: block;
-} */
+.menu-visible{
+    display: block !important;
+}
